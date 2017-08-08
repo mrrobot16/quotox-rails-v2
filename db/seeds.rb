@@ -345,7 +345,7 @@ quotes = [
 ]
 
 quotes.each do |quote|
-  Quote.create(quote:quote[:quote])
+  Quote.create(description:quote[:quote])
 end
 
 

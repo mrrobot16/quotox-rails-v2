@@ -3,7 +3,7 @@ class CreateDetoxes < ActiveRecord::Migration[5.1]
     create_table :detoxes do |t|
       t.string :drug_name
       t.date :last_time
-
+      
       t.timestamps
     end
   end
